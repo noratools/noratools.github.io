@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>probe</title>
+<style>body{margin:0;background:#111113;color:#eee;font:20px/1.5 system-ui,sans-serif;padding:32px}
+button{font:24px system-ui;padding:16px 28px;margin-top:24px}
+#out{font-size:64px;margin-top:32px;color:#ffd166}</style></head>
+<body><h1>Pipeline probe</h1>
+<p>Technical page. It exists to prove the pipeline works end to end.</p>
+<button id="go">Count</button><div id="out">0</div>
+<script>let n=0;document.getElementById("go").onclick=()=>{n++;document.getElementById("out").textContent=n}</script>
+</body></html>
